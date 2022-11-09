@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    function Product(n,b,p,d,s) {
+  // Complete the constructor function
+  this.name=n;
+  this.brand=b;
+  this.price=p;
+  this.description=d;
+  this.sold=s
+}
+
+// Create these two methods in Product prototype :-
+// changePrice
+// toggleStatus
+
+// Do not change this
+
+let bject= {
+    "brand": "Puma",
+     "description": "Sport shoe",
+     "name": "Shoe",
+     "price": 5000,
+     "sold": false,
+   }
+   const name=bject.name
+   const brand=bject.brand
+   const price=bject.price
+const description=bject.description
+const sold=bject.sold
+console.log(name, brand, price, description,sold)
+   const p = new Product(name, brand, price, description,sold);
+  console.log(p)
+
+
+</script>
