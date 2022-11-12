@@ -1,11 +1,14 @@
-import logo from './logo.svg';
+import Header from './Comp/Header';
+import Home from './Comp/Home';
+
 import './App.css';
-import HomePage from './Pages/HomePage';
 
 function App() {
   return (
     <div className="App">
-      <HomePage/>
+      
+      <Header/>
+      <Home/>
     </div>
   );
 }

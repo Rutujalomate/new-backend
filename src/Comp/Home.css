@@ -1,0 +1,19 @@
+.home_image{
+    width: 100%;
+    margin-bottom: -150px;
+    z-index: -1;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0));
+}
+.home__row {  
+    display:grid; 
+     grid-template-columns: repeat(4,1fr); 
+    z-index: 1; 
+    margin-left: 5px;  
+    margin-right: 5px;
+width: 100%;
+    /* min-width: fit-content; */
+
+  }
+  .home__row>div{
+  }
+  
